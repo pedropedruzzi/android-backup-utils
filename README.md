@@ -26,7 +26,7 @@ A set of bash scripts to help manipulate android backup (adb backup) without enc
 	repack.sh com.example.appx
 
 	# wrap tar inside android backup file: com.example.appx/backup.ab
-	rewrap.sh com.example.appx
+	wrap.sh com.example.appx
 
 	# restore backup
 	adb restore com.example.appx/backup.ab
