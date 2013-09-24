@@ -23,7 +23,7 @@ A set of bash scripts to help manipulate android backup (adb backup) without enc
 	vi com.example.appx/files.txt
 
 	# repack tar for this app: com.example.appx/backup.tar
-	repack.sh com.example.appx
+	pack.sh com.example.appx
 
 	# wrap tar inside android backup file: com.example.appx/backup.ab
 	wrap.sh com.example.appx
