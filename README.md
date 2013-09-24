@@ -4,6 +4,19 @@ A set of bash scripts to help manipulate android backup (adb backup) without enc
 
 ## How to use (by example)
 
+### Simple
+
+	# backup apps from android device
+	adb backup -f backup.ab -apk -all
+
+	# extract some specific app
+	extract.sh com.example.appx
+
+	# restore this app
+	adb restore com.example.appx.ab
+
+### Complete
+
 	# backup apps from android device
 	adb backup -f backup.ab -apk -all
 
